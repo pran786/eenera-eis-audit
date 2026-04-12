@@ -18,7 +18,9 @@ from app.models.schemas import AllowedFileType
 # Constants
 # ---------------------------------------------------------------------------
 
-UPLOAD_DIR = Path("uploads")
+import os
+
+UPLOAD_DIR = Path("/tmp/uploads") if os.environ.get("VERCEL") else Path("uploads")
 
 ALLOWED_EXTENSIONS: dict[str, str] = {
     ".pdf": AllowedFileType.PDF.value,
