@@ -22,10 +22,10 @@ export default function Hero() {
           Powered by AI
         </div>
 
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-gray-900 mb-6 leading-tight">
-          Audit your workflows
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 mb-6 leading-tight">
+          Identify where your operations are wasting time and money
           <br />
-          <span className="gradient-text">in seconds</span>
+          <span className="gradient-text">— in minutes</span>
         </h1>
 
         <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed font-light">

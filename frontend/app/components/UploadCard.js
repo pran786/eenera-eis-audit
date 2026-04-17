@@ -110,8 +110,7 @@ export default function UploadCard({ onUpload, error, loading }) {
                 </svg>
               </div>
               <p className="text-gray-700 font-medium mb-1">
-                Drop your file here, or{" "}
-                <span className="text-indigo-600">browse</span>
+                Upload a workflow, SOP, or describe a process
               </p>
               <p className="text-sm text-gray-400">PDF or DOCX · Max 50MB</p>
             </motion.div>
@@ -187,7 +186,7 @@ export default function UploadCard({ onUpload, error, loading }) {
                 Uploading…
               </span>
             ) : (
-              "Analyze"
+              "Generate Audit Report"
             )}
           </button>
         </div>
